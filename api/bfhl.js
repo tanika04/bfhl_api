@@ -9,7 +9,7 @@ const email = 'john@xyz.com';
 const roll_number = 'ABCD123';
 const user_id = `${full_name}_${dob}`;
 
-app.post('/api/bfhl', (req, res) => {
+app.post('/', (req, res) => {
   try {
     const data = req.body.data || [];
     let even_numbers = [];
